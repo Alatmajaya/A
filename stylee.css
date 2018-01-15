@@ -1,0 +1,184 @@
+
+*/
+body{
+	margin: 0px;
+	padding: 10px;
+	font-family: Segoe UI;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	color:#2196F3;
+}
+.header{
+	padding:20px;
+	border:1px solid #000;
+	display: inline-block;
+	width: 95.96%;
+	margin-bottom: 10px;
+}
+.header .logo{
+	font-size: 30px;
+	width: 20%;
+	float: left;
+}
+.header .logo a{
+	text-decoration: none;
+}
+.header .menu{
+	padding-top:10px;
+	float: left;
+	width: 80%;
+	text-align: right;
+}
+.header .menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.header .menu ul li{
+	display: inline;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.header .active{
+	color:#2196F3;
+	font-weight: bold;
+}
+
+/* KONTEN */
+a
+.konten{
+	width: 100%;
+	display: inline-block;
+}
+.konten .kiri{
+	float:left;
+	width:20%;
+	margin-right: 10px;
+}
+.konten .kiri ul{
+	margin: 0px;
+	padding-left:10px;
+}
+.konten .kanan{
+	float:right;
+	width:78.4%;
+}
+.kotak{
+	display: inline-block;
+	width: 100%;
+	border:1px solid #000;
+}
+.kotak .kotak-atas{
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	background: #F312F3;
+	color:#fff;
+	font-weight: bold;
+}
+.kotak .kotak-konten{
+	padding:20px;
+	display: inline-block;
+}
+.cari{
+	padding:10px;
+	float:left;
+	margin-left:10px;
+	width: 90%;
+}
+.barang{
+	display: inline-block;
+	float:left;
+	width: 22%;
+	border:1px solid #000;
+	margin:10px;
+}
+.barang .gambar{
+	width:100%;
+}
+.barang .gambar img{
+	width: 100%;
+}
+.barang .sekilas{
+	padding:10px;
+}
+.barang .sekilas h3{
+	margin:0px;
+	font-size: 15px;
+}
+.barang .sekilas .tombol-detail{
+	padding:5px;
+	width:38%;
+	float:left;
+	margin-right:10px;
+	text-align: center;
+	border:1px solid #000;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: #f32121;
+	color:#fff;
+}
+.barang .sekilas .tombol-detail:hover{
+	background-color: #1868a7
+}
+
+.barang .sekilas .tombol-beli{
+	float:right;
+	padding:5px;
+	width:38%;
+	text-align: center;
+	border:1px solid #000;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: #4CAF50;
+	color:#fff;
+}
+.barang .sekilas .tombol-beli:hover{
+	background-color: #009688
+}
+
+.tombol{
+	padding: 10px;
+	text-align: center;
+	width: 98%;
+	border:1px solid #000;
+	background-color: #F32121;
+	color:#fff;
+	text-decoration: none
+}
+.tombol:hover{
+	background-color: #1868a7;
+}
+.pagination{
+	margin: 0px;
+	padding: 0px;
+}
+.pagination li{
+	list-style: none;
+	display: inline;
+}
+.pagination li a{
+	padding-left:10px;
+	padding-right:10px;
+}
+.table-keranjang{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-keranjang th,td{
+	padding:5px;
+}
+
+/* FOOTER */
+.footer{
+	padding:20px;
+	border:1px solid #000;
+	display: inline-block;
+	width: 95.96%;
+	margin-top: 10px;
+}
